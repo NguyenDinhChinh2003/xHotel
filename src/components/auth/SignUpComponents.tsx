@@ -14,7 +14,7 @@ export default function SignUpComponents() {
         className="h-[32px] w-[32px] bg-gray-300 rounded-full absolute right-8 top-8 flex justify-center items-center"
         style={{ cursor: "pointer" }}
       >
-        <img src="/assets/Vector.svg" className="mr-0.1" alt="" />
+        <a href="/home"><img src="/assets/Vector.svg" className="mr-0.1" alt="" /></a>
       </div>
     </div>
   );

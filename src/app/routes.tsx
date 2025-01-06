@@ -3,6 +3,7 @@ import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 // Views
+import HomePage from "./home/page";
 import Login from "./auth/login/page";
 import LoginByPhone from "./auth/login/phone/page";
 import Register from "./auth/register/page";
@@ -16,6 +17,7 @@ const Router: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/auth/login" />} />
+      <Route path="/home" element={<HomePage />} />
       <Route path="/auth/login" element={<Login />} />
       <Route path="/auth/login/phone" element={<LoginByPhone />} />
       <Route path="/auth/register" element={<Register />} />

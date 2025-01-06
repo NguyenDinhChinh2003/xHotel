@@ -1,6 +1,5 @@
 "use client";
 
-import RegisterComponents from "@/components/auth/RegisterComponents";
 import SignUpComponents from "../../../components/auth/SignUpComponents";
 import React, { useState } from "react";
 
