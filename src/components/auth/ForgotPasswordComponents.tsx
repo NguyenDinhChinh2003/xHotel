@@ -2,7 +2,7 @@ import SignUpComponents from "./SignUpComponents";
 
 export default function LoginComponets() {
   return (
-    <div className="border border-gray-300 rounded-3xl w-[1256px] h-[800px] flex justify-between ml-72 mt-20">
+    <div className="border border-gray-300 rounded-3xl w-[1256px] h-[800px] flex justify-between">
       <div className="w-[576px] h-[800px]">
         <div className="mt-20 ml-8">
           <p className="text-[32px] font-bold p-2">Đăng nhập</p>
@@ -51,7 +51,7 @@ export default function LoginComponets() {
           <div className="text-[14px] text-center mt-2 w-[480px]">
             <p>Bạn mới biết đến Xhotel ?</p>
             <p>
-              <a href="" className="underline text-lime-600 pr-1">
+              <a href="/auth/register" className="underline text-lime-600 pr-1">
                 Đăng ký
               </a>
               và nhận ưu đãi dành riêng cho Xmember

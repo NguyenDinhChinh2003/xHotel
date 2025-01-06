@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import SignUpComponents from "./SignUpComponents";
-export default function OTP() {
+export default function OtpComponets() {
   const [timeLeft, setTimeLeft] = useState(120); // Thời gian bắt đầu: 60 giây
 
   useEffect(() => {
@@ -20,9 +20,14 @@ export default function OTP() {
   };
 
   return (
-    <div className="border border-gray-300 rounded-3xl w-[1256px] h-[800px] flex justify-between ml-72 mt-20">
+    <div className="border border-gray-300 rounded-3xl w-[1256px] h-[800px] flex justify-between">
       <div className="w-[576px] h-[800px]">
         <div className="mt-20 ml-8">
+          <div className="mb-4 ml-3">
+            <a href="/auth/register">
+              <img src="/assets/Vector2.svg" alt="" />
+            </a>
+          </div>
           <p className="text-[32px] font-bold p-3">Nhập OTP</p>
           <p className="w-[480px] pl-3 text-[16px] text-gray-500">
             Vui lòng nhập mã OTP đã được gửi đến email
